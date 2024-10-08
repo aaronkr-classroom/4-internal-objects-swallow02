@@ -27,8 +27,8 @@ Character Encoding : <%= response.getCharacterEncoding() %>
 
  <%= new java.util.Date()%> 
  </pre>
-<%response.sendError(404, "요청 페이지를 찾을 수 없습니다"); %>
-<% // response.sendError(500, "요청 페이지를 찾을 수 없습니다");%>
-<% // response.sendError(404, "요청 페이지를 찾을 수 없습니다"); %>
+<%//response.sendError(404, "요청 페이지를 찾을 수 없습니다"); %>
+<%//response.sendError(500, "요청 페이지를 찾을 수 없습니다");%>
+<%//response.sendError(404, "요청 페이지를 찾을 수 없습니다"); %>
 </body>
 </html>
